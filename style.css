@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d2d2c1 url(imagens/fundo.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*cabeçalho e menu */
+#header,
+#menu {
+    margin: 1%;
+}
+
+/*links */
+a {
+    text-decoration: none;
+}
+
+#top-container a {
+    background-color: rgb(17, 18, 68);
+    border-radius: 7px;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+    margin-right: 3px;
+}
+
+/*conteúdo */
+#content {
+    margin: 1%;
+    border-radius: 7px;
+    background-color: rgb(212, 230, 230);
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-box {
+    font-size: large;
+    width: 200%;
+    margin: 50px;
+    padding: 10px;
+}
+
+.img {
+    border-radius: 7px;
+    width: 100%;
+}
+
+.right-box {
+    font-size: x-large;
+    margin: 50px;
+    padding: 10px;
+}
+
+/*mapa */
+#map {
+    font-size: large;
+    margin: 50px;
+}
+
+#map img {
+    border-radius: 7px;
+    width: 100%;
+}
+
+/*rodapé */
+#footer {
+    text-align: center;
+}
+
+/* pagina de cadastro */
+#box-form{
+    display: flex;
+    justify-content: center;
+}
+
+#cadastro {
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 7px;
+    background-color: rgb(212, 230, 230);
+    text-align: center;
+}
+
+#form{
+    padding: 1%;
+    background-color: rgb(212, 230, 230);
+    border-radius: 7px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="password"],
+#form select,
+#form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#form input[type="submit"] {
+    background-color: rgb(17, 18, 68);
+    border-radius: 7px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* pagina de login */
+#footer-login {
+    text-align: center;
+    margin-top: 28%;
+}

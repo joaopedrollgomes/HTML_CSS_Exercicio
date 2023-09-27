@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div id="top-container">
+        <header id="header">
+            <h1><a href="index.html">Trip Recife</a></h1>
+        </header>
+        <nav id="menu">
+            <a href="index.html">Home</a>
+            <a href="locais.html">Outros Locais</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </div>
+
+    <div id="box-form">
+        <div id="cadastro">
+            <h2>Cadastro</h2>
+            <form id="form" action="">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+
+                <label for="idade">Idade:</label><br>
+                <input type="text" id="idade" name="idade"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="sexo">Genero:</label><br>
+                <label for="sexo-m">Masculino</label><br>
+                <input type="radio" id="sexo-m" name="sexo" value="M"><br>
+                <label for="sexo-f">Feminino</label><br>
+                <input type="radio" id="sexo-f" name="sexo" value="F"><br>
+                <label for="sexo-nb">Não Binário</label><br>
+                <input type="radio" id="sexo-nb" name="sexo" value="NB"><br>
+                <label for="sexo-gf">Gênero Flúido</label><br>
+                <input type="radio" id="sexo-gf" name="sexo" value="GF"><br>
+                <label for="sexo-nn">Prefiro não dizer</label><br>
+                <input type="radio" id="sexo-nn" name="sexo" value="NN"><br>
+                <label for="outrosGeneros">Outros:</label><br>
+                <textarea id="outros-genero" name="outrosGeneros"></textarea> <br>
+
+                <label for="senha">Digite uma senha:</label><br>
+                <input type="password" id="senha" name="senha"><br>
+
+                <label for="confirm-senha">Confirme sua senha:</label><br>
+                <input type="password" id="confirm-senha" name="confirmSenha"><br>
+
+                <label>Interesse:</label><br>
+                <input type="checkbox" id="interesse-viagens" name="interesses">Viagens<br>
+                <input type="checkbox" id="interesse-esporte" name="interesses">Esporte e Lazer<br>
+                <input type="checkbox" id="interesse-alimentacao" name="interesses">Alimentação<br> <br>
+
+                <label for="estado">Qual estado você mora:</label><br>
+                <select id="estado" name="estado">
+                    <option value="Pe">Pe</option>
+                    <option value="Pb">Pb</option>
+                </select> <br> <br>
+
+                <label for="observacoes">Observações:</label> <br>
+                <textarea id="observacoes" name="observacoes"></textarea> <br>
+
+                <input type="submit" id="enviar" name="cadastro" value="Enviar"><br>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        © JP Gomes. <a href="#">Saiba mais</a>
+    </footer>
+
+</body>
+
+</html>
