@@ -5,72 +5,122 @@
 }
 
 body {
-    background: #d2d2c1 url(imagens/fundo.png);
-    font-family: Arial, Helvetica, sans-serif;
+    /* background: #d2d2c1 url(imagens/fundo.png); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
 
+/*cabeçalho e menu */
 #top-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 1200px;
+    /* border: 1px solid red; */
+    background-color: rgb(90, 155, 155);
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
 }
 
-/*cabeçalho e menu */
 #header,
 #menu {
-    margin: 1%;
+    padding: 10px;
 }
 
-/*links */
+h1 {
+    font-size: 40px;
+}
+
+span {
+    color: black;
+}
+
 a {
     text-decoration: none;
 }
 
-#top-container a {
-    background-color: rgb(17, 18, 68);
+#top-container a:link,
+#top-container a:visited {
+    color: white;
+}
+
+#top-container a:hover {
+    color: rgb(90, 155, 155);
+    background: #ffffff;
     border-radius: 7px;
+}
+
+#top-container a {
     padding: 7px;
     font-weight: bold;
-    color: white;
     margin-right: 3px;
+}
+
+.data a{
+    font-size: 13px;
+    color: rgb(105, 104, 102);
+}
+
+.data a:hover {
+    color: rgb(90, 155, 155);
 }
 
 /*conteúdo */
 #content {
     margin: 1%;
     border-radius: 7px;
-    background-color: rgb(212, 230, 230);
+    /* background-color: rgb(212, 230, 230); */
 }
 
 .box {
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    width: 1200px;
+    margin: auto;
 }
 
 .left-box {
-    font-size: large;
-    width: 200%;
-    margin: 50px;
-    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(224, 220, 220); 
+    width: 860px;
+    padding: 20px;
+    /* margin: auto; */
+}
+
+.titulo {
+    font-size: 30px;
 }
 
 .img {
     border-radius: 7px;
     width: 100%;
+    margin: 20px 0px;
+}
+
+p {
+    color: rgb(105, 104, 102);
+    margin-bottom: 20px;
 }
 
 .right-box {
-    font-size: x-large;
-    margin: 50px;
     padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(224, 220, 220); 
+    width: 310px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-box h2{
+    margin-top: 10px;
 }
 
 /*mapa */
 #map {
+    /* border: 1px solid red; */
+    width: 820px;
     font-size: large;
-    margin: 50px;
+    margin-top: 5px;
 }
 
 #map img {
@@ -80,11 +130,20 @@ a {
 
 /*rodapé */
 #footer {
+    color: rgb(105, 104, 102);
     text-align: center;
 }
 
+#footer a:visited, #footer a:link {
+    color: rgb(105, 104, 102);
+}
+
+#footer a:hover {
+    color: rgb(90, 155, 155);
+}
+
 /* pagina de cadastro */
-#box-form{
+#box-form {
     display: flex;
     justify-content: center;
 }
@@ -98,7 +157,7 @@ a {
     text-align: center;
 }
 
-#form{
+#form {
     padding: 1%;
     background-color: rgb(212, 230, 230);
     border-radius: 7px;
