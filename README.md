@@ -1,6 +1,16 @@
-# HTML_CSS_Exercícios
+# Projetinho como exercício.
 
-Exercícios iniciais HTML/CSS.
+Página simples desenvolvida usando html e css
 
-## Exercício: 
-Para esta atividade, use a página que você elaborou sobre o ponto turístico e locais em sua cidade. Aplique os conhecimentos adquiridos em CSS para melhorar o código HTML.
+## Atualizações Futuras
+* Melhorar a responsividade;
+* Padronizar o formato de estilização para facilitar atualizações;
+* Add Modo Noturno;
+* HTML semântico.
+
+## O Projeto
+Uma página que mostra alguns dos pontos turísticos de Recife.
+
+## Documentação
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
